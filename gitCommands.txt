@@ -14,6 +14,8 @@ git checkout branchname = switch to a branch
 git branch -d branchname = deletes branch
 git merge branchname = merges branch into branch we're oneline
 git checkout commitID = checkout/go back to a previous commit
+If you wanna tweak the last commit, just use the command: 
+git commit --amend -m "New and improved commit message~"
 M = Modified
 A = Added to staging areaU = Untracked / Not in staging area
 no letter = Committed
