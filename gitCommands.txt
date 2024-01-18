@@ -6,3 +6,7 @@ git add "filename" = adding files to staging area
 git commit -m "commit message" = committing files in the staging area
 git status = checking files in the staging area/ checking status of files
 git rm --cached filename = remove file from staging area
+git branch -a = list all branches
+M = Modified
+A = Added to staging areaU = Untracked / Not in staging area
+no letter = Committed
